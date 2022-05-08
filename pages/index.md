@@ -22,7 +22,7 @@ Hi, I am **{{ site.author.name }}**,<br>
   </div>
 </div>
 
-I work with Unity since 2018. I am mostly interested in designing games' architectures and creating shaders.
+I work with Unity since 2018. I am mostly interested in game architecture and graphics programming.
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
