@@ -50,10 +50,13 @@ permalink: /blog/:title
 collections:
   projects:
     output: true
-    permalink: /personal-projects/:name
+    permalink: /open-source-projects/:name
   commercial-projects:
     output: true
     permalink: /commercial-projects/:name
+  private-projects:
+    output: true
+    permalink: /private-projects/:name
 
 
 ### Disqus ###

@@ -1,0 +1,8 @@
+<div style="text-align: center;">
+  These are personal closed-source projects. Cards link to repositories, which only store code.
+</div>
+
+<div class="card-deck">
+  {% for project in site.private-projects %} {% include
+  projects/project-info.html %} {% endfor %}
+</div>
