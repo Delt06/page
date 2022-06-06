@@ -25,10 +25,13 @@
           <img src="https://img.shields.io/github/stars/{{ project_gh_repo }}?color=007bff&label=Stars&logoColor=17191a&style=flat-square"/>  
         </div>
         {%- endif -%}
+
+        
       </h5>
       <p id="{{ project_id }}-desc" class="card-text">
-        {{ project_desc }}
+        {{ project_desc }}        
       </p>
+
       <p id="{{ project_id }}-tools" class="card-text">
         {%- for tool in project_tools -%}
         <span class="badge badge-pill text-primary border border-primary ml-1"
@@ -37,5 +40,12 @@
         {%- endfor -%}
       </p>
     </div>
+
+    {%- if project_itch_url -%}
+    <a id="{{ project_id }}-itch" class="card-text card-link" href="https://deltation.itch.io/sci-fi-roguelite">
+      <img style="width:10rem; margin-left: auto; margin-right: auto; display: block;" src="https://static.itch.io/images/badge-color.svg" class="card-img-bottom"/>
+    </a>
+    {%- endif -%}
+    
   </a>
 </div>
