@@ -3,11 +3,11 @@
   to: present
   description:  "
                 <ul>
-                  <li>Establishing technical processes</li>
-                  <li>Mentoring</li>
-                  <li>Code review</li>
-                  <li>Building CI pipelines</li>
-                  <li>Developing hyper-casual and mid-core games</li>
+                  <li>Developing hybrid-casual, hyper-casual, and mid-core games;</li>
+                  <li>Establishing technical processes;</li>
+                  <li>Mentoring;</li>
+                  <li>Code review;</li>
+                  <li>Building CI pipelines.</li>
                 </ul>
                 "
 

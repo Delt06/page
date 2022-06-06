@@ -50,7 +50,10 @@ permalink: /blog/:title
 collections:
   projects:
     output: true
-    permalink: /projects/:name
+    permalink: /personal-projects/:name
+  commercial-projects:
+    output: true
+    permalink: /commercial-projects/:name
 
 
 ### Disqus ###
