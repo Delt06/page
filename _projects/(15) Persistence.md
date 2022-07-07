@@ -1,7 +1,7 @@
 ---
 name: Persistence
 tools: [Unity, C#]
-description: An implementation of Pong using Mirror Networking and LeoECS Lite.
+description: A library for saving player's progress in Unity.
 external_url: https://github.com/Delt06/persistence
 gh_repo: Delt06/persistence
 ---
