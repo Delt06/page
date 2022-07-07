@@ -3,18 +3,28 @@
   to: present
   description:  "
                 <ul>
-                  <li>Developing hybrid-casual and hyper-casual games;</li>
-                  <li>Establishing technical processes;</li>
-                  <li>Mentoring;</li>
-                  <li>Code review;</li>
-                  <li>Building CI pipelines.</li>
+                  <li>Developed hybrid-casual and hyper-casual games.</li>
+                  <li>Applied various architectural approaches: Entity-Component, Entity-Component-System, Dependency Injection, MV-family.</li>
+                  <li>Created shaders with HLSL and Shader Graph.</li>
+                  <li>Profiled and optimized code, graphics, and physics.</li>
+                  <li>Used and extended Universal Render Pipeline.</li>
+                  <li>Established the company's technical processes.</li>
+                  <li>Conducted code review and mentored other programmers.</li>
+                  <li>Built Continuous Integration pipelines.</li>
                 </ul>
                 "
 
 - title: Unity Developer, Indie GameDev Club
   from: November 2019
   to: December 2020
-  description: Developing hyper-casual and mid-core games.
+  description: "
+                <ul>
+                  <li>Developed hyper-casual and mid-core games: from prototyping to release.</li>
+                  <li>Integrated assets produced by other team members (3D, 2D, sounds).</li>
+                  <li>Integrated SDKs for analytics and monetization (Facebook, Unity IAP, AdMob, AppMetrica, AppLovin MAX, etc.).</li>
+                  <li>Created shaders with Shader Graph.</li>
+                </ul>
+                "
                 
 
 - title: Student, Innopolis University, Russia
