@@ -5,4 +5,5 @@ image: https://github.com/Delt06/vertex-ao/blob/master/Documentation/sponza_ao.j
 description: A proof of concept for a simple per-vertex ambient occlusion baking system.
 external_url: https://github.com/Delt06/vertex-ao
 gh_repo: Delt06/vertex-ao
+weight: 3
 ---

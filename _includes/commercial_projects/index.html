@@ -1,4 +1,2 @@
-<div class="card-deck">
-  {% for project in site.commercial-projects %} {% include
-  projects/project-info.html %} {% endfor %}
-</div>
+{% assign source-projects = site.commercial-projects %}
+{% include projects/project-list.html %}

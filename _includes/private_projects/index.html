@@ -3,7 +3,5 @@
   <p>Some of the projects are also available on itch.io.</p>
 </div>
 
-<div class="card-deck">
-  {% for project in site.private-projects %} {% include
-  projects/project-info.html %} {% endfor %}
-</div>
+{% assign source-projects = site.private-projects %}
+{% include projects/project-list.html %}

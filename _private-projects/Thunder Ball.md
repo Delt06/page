@@ -5,4 +5,5 @@ image: https://repository-images.githubusercontent.com/506347844/aa769301-12b4-4
 # description: 
 external_url: https://github.com/Delt06/thunder-ball-public
 # itch_url: https://deltation.itch.io/thunder-ball
+weight: 5
 ---
