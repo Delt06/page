@@ -30,4 +30,8 @@
 - title: Student, Innopolis University, Russia
   from: August 2018
   to: June 2022
-  description: Computer Science, Software Engineering track
+  description: "
+              Computer Science, Software Engineering track
+              <br/>
+              Thesis topic: Automatic difficulty assessment of levels in hyper-casual games with reinforcement learning
+              "
