@@ -1,7 +1,15 @@
 - name: Unity/C#
   percentage: 100
-  color: danger
+  color: primary
 
 - name: ShaderLab/HLSL
   percentage: 100
-  color:
+  color: secondary
+
+- name: C++
+  percentage: 100
+  color: danger
+
+- name: DirectX 12
+  percentage: 100
+  color: info
