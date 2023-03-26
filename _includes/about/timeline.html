@@ -4,7 +4,33 @@
       <div class="timeline-item">
         <div class="content">
           <h2>{{ item.title }}</h2>
-          <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
+          <!-- https://www.reddit.com/r/Jekyll/comments/kv3lah/calculating_yearsmonths_from_two_dates_6_yrs_2mos/ -->
+          {% assign from_date = item.from %}
+          {% assign to_date = item.to %}
+
+          
+
+          <h6 class="date">
+            {{ from_date | date: '%B %Y' }} — {{ to_date | date: '%B %Y' | default: 'Present' }} 
+
+            {% if item.show_duration %}
+              {% assign job_start_days = from_date | date: "%s" | divided_by: 86400 %}
+              {% assign job_ended_days = to_date | default: 'now' | date: "%s" | divided_by: 86400 %}
+              {% assign job_diff_days = job_ended_days | minus: job_start_days %}
+
+              {% assign job_diff_years = job_diff_days | divided_by: 365.25 | floor %}
+              {% assign job_diff_mos = job_diff_days | modulo: 365.25 | divided_by: 30.4375 | round %}
+              
+              • 
+              
+              {% if job_diff_years > 0 %}
+                {{ job_diff_years }} yrs 
+              {% endif %}
+              
+              {{ job_diff_mos}} mos
+            {% endif %}
+          </h6>
+
           <p>{{ item.description }}</p>
         </div>
       </div>

@@ -1,12 +1,14 @@
 - title: Rendering Developer, Sperasoft
   from: September 2022
-  to: Present
+  to:
+  show_duration: true
   description:  "
                 "
 
 - title: CTO, Indie GameDev Club
   from: January 2021
   to: July 2022
+  show_duration: true
   description:  "
                 <ul>
                   <li>Developed hybrid-casual and hyper-casual games.</li>
@@ -23,6 +25,7 @@
 - title: Unity Developer, Indie GameDev Club
   from: November 2019
   to: December 2020
+  show_duration: true
   description: "
                 <ul>
                   <li>Developed hyper-casual and mid-core games: from prototyping to release.</li>
@@ -36,8 +39,9 @@
 - title: Student, Innopolis University
   from: August 2018
   to: June 2022
+  show_duration: false
   description: "
-              Computer Science, Software Engineering track
+              Bachelor's degree: Computer Science, Software Engineering track
               <br/>
               Thesis topic: Automatic difficulty assessment of levels in hyper-casual games with reinforcement learning
               "
