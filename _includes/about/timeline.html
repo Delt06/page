@@ -19,7 +19,7 @@
               {% assign job_diff_days = job_ended_days | minus: job_start_days %}
 
               {% assign job_diff_years = job_diff_days | divided_by: 365.25 | floor %}
-              {% assign job_diff_mos = job_diff_days | modulo: 365.25 | divided_by: 30.4375 | round %}
+              {% assign job_diff_mos = job_diff_days | modulo: 365.25 | divided_by: 30.4375 | ceil %}
               
               • 
               
