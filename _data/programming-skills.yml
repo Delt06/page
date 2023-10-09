@@ -3,29 +3,34 @@
   subskills:
   - name: Unity/C#/URP/SRP
     percentage: 100  
+    icon_url: https://unity.com/themes/contrib/unity_base/images/favicons/favicon.ico
   - name: DirectX 12/C++
     percentage: 100
+    icon_url: https://cdn.lo4d.com/t/icon/128/directx-10.png
 
 - name: Shader Development
   color: danger
   subskills:
   - name: Unity/HLSL/ShaderLab/ShaderGraph
     percentage: 100
+    icon_url: https://unity.com/themes/contrib/unity_base/images/favicons/favicon.ico
   - name: DirectX 12/HLSL
     percentage: 100
+    icon_url: https://cdn.lo4d.com/t/icon/128/directx-10.png
 
 - name: Gameplay Programming
   color: info
   subskills:
   - name: Unity/C#
     percentage: 100
+    icon_url: https://unity.com/themes/contrib/unity_base/images/favicons/favicon.ico
 
 - name: Game Architecture
   color: secondary
   subskills:
-  - name: Entity-Component-System (ECS)
+  - name: ↩️ Entity-Component-System (ECS)
     percentage: 100
-  - name: Dependency Injection (DI)
+  - name: ↖️ Dependency Injection (DI)
     percentage: 100
-  - name: Object-Oriented Programming (OOP)
+  - name: 🔁 Object-Oriented Programming (OOP)
     percentage: 100

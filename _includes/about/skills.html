@@ -17,18 +17,24 @@
 
   {% for subskill in skill.subskills %}
   <h6 class="col-10 mb-1" >
-    {{ subskill.name }}
-    <div class="progress mb-2 bg-themed" style="height: 5px;">
-      <div class="progress-bar bg-{{ skill.color | default: "primary" }} wow animated slideInLeft"
-        data-wow-delay="{{ forloop.index | divided_by: 20.0 }}"
-        role="progressbar"
-        style="width: {{ subskill.percentage }}%;"
-        aria-valuenow="{{ subskill.percentage }}"
-        aria-valuemin="0"
-        aria-valuemax="100">
-      </div>
-  </div>
+    <div style="display: flex; align-items: left; justify-content: flex-start; align-items: center">
+      {% if subskill.icon_url %}
+        <img width="16" style="margin: 0; margin-right: 0.5rem" src="{{ subskill.icon_url }}"/> 
+      {% endif %}
+      <p style="display: inline; margin-bottom: 0">{{ subskill.name }}</p>
+    </div>
   </h6>
+    
+  <div class="progress mb-2 bg-themed" style="height: 5px;">
+    <div class="progress-bar bg-{{ skill.color | default: "primary" }} wow animated slideInLeft"
+      data-wow-delay="{{ forloop.index | divided_by: 20.0 }}"
+      role="progressbar"
+      style="width: {{ subskill.percentage }}%;"
+      aria-valuenow="{{ subskill.percentage }}"
+      aria-valuemin="0"
+      aria-valuemax="100">
+    </div>
+  </div>
   
   {% endfor %}
 

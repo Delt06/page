@@ -25,3 +25,9 @@ body {
     color: $text-white !important;
   }
 }
+
+.content-dir-item img.mail {
+  display: inline-block;
+  *display: inline; /* for older IE */
+  *zoom: 1; /* for older IE */
+}
