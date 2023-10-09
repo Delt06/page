@@ -1,15 +1,31 @@
-- name: Unity/C#
-  percentage: 100
+- name: Graphics Programming
   color: primary
+  subskills:
+  - name: Unity/C#/URP/SRP
+    percentage: 100  
+  - name: DirectX 12/C++
+    percentage: 100
 
-- name: ShaderLab/HLSL
-  percentage: 100
-  color: secondary
-
-- name: C++
-  percentage: 100
+- name: Shader Development
   color: danger
+  subskills:
+  - name: Unity/HLSL/ShaderLab/ShaderGraph
+    percentage: 100
+  - name: DirectX 12/HLSL
+    percentage: 100
 
-- name: DirectX 12
-  percentage: 100
+- name: Gameplay Programming
   color: info
+  subskills:
+  - name: Unity/C#
+    percentage: 100
+
+- name: Game Architecture
+  color: secondary
+  subskills:
+  - name: Entity-Component-System (ECS)
+    percentage: 100
+  - name: Dependency Injection (DI)
+    percentage: 100
+  - name: Object-Oriented Programming (OOP)
+    percentage: 100

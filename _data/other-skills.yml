@@ -1,3 +1,17 @@
-- name: GitHub Actions
-  percentage: 100
-  color: info
+- name: Version Control Systems
+  color: primary
+  subskills:
+  - name: Git
+    percentage: 100
+  - name: Perforce
+    percentage: 100
+
+- name: CI/CD
+  color: secondary
+  subskills:
+  - name: GitHub Actions
+    percentage: 100
+  - name: GameCI
+    percentage: 100
+  - name: GitLab CI
+    percentage: 100
