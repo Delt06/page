@@ -22,7 +22,7 @@ Hi, I am **{{ site.author.name }}**,<br>
   </div>
 </div>
 
-I work with Unity since 2018. I am mostly interested in game architecture and graphics programming.
+I'm a Unity Developer and Graphics Programmer. I've been developing games in Unity since 2018. At the moment, I specialize in DirectX 12 and Unity graphics programming. My additional areas of expertise are gameplay programming and game architecture.
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
