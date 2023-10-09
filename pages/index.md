@@ -7,7 +7,7 @@ weight: 4
 
 # **About Me**
 
-Hi, I am **{{ site.author.name }}**,<br>
+Hi, I am **{{ site.author.name }}**<br>
 
 <div class="row justify-content-center align-items-center p-4">
   <div class="col-lg-4 col-md-6 text-center mt-4">
