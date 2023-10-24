@@ -7,6 +7,8 @@
   - name: DirectX 12/C++
     percentage: 100
     icon_url: https://cdn.lo4d.com/t/icon/128/directx-10.png
+  - name: 🐞 PIX/RenderDoc/NVIDIA Nsight
+    percentage: 100
 
 - name: Shader Development
   color: danger
