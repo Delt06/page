@@ -9,10 +9,8 @@ weight: 4
 
 Hi, I am **{{ site.author.name }}**<br>
 
-<div class="row justify-content-center align-items-center p-4">
+<!-- <div class="row justify-content-center align-items-center p-4">
   <div class="col-lg-4 col-md-6 text-center mt-4">
-
-    <!-- Fine Circle Responsive Image -->
     <div id="container" class="my-2">
       <div id="dummy"></div>
       <div id="element">
@@ -20,7 +18,7 @@ Hi, I am **{{ site.author.name }}**<br>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 I'm a Unity Developer and Graphics Programmer. I've been developing games in Unity since 2018. At the moment, I specialize in DirectX 12 and Unity graphics programming. My additional areas of expertise are gameplay programming and game architecture.
 
