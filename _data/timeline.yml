@@ -3,6 +3,15 @@
   to:
   show_duration: true
   description:  "
+                <ul>
+                  <li>
+                    Worked on Starfield as a part of Bethesda’s rendering team:
+                    <ul>
+                      <li>Maintained the renderer of a custom engine for PC and Xbox Series S/X (DirectX 12).</li>
+                    </ul>
+                  </li>
+                  <li>Developed a DirectX 12 renderer for internal company’s purposes.</li>
+                </ul>
                 "
 
 - title: CTO, Indie GameDev Club
@@ -11,7 +20,7 @@
   show_duration: true
   description:  "
                 <ul>
-                  <li>Developed hybrid-casual and hyper-casual games.</li>
+                  <li>Developed and maintained mobile and WebGL games.</li>
                   <li>Applied various architectural approaches: Entity-Component, Entity-Component-System, Dependency Injection, MV-family.</li>
                   <li>Created shaders with HLSL and Shader Graph.</li>
                   <li>Profiled and optimized code, graphics, and physics.</li>
@@ -28,9 +37,9 @@
   show_duration: true
   description: "
                 <ul>
-                  <li>Developed hyper-casual and mid-core games: from prototyping to release.</li>
-                  <li>Integrated assets produced by other team members (3D, 2D, sounds).</li>
-                  <li>Integrated SDKs for analytics and monetization (Facebook, Unity IAP, AdMob, AppMetrica, AppLovin MAX, etc.).</li>
+                  <li>Developed and maintained mobile games.</li>
+                  <li>Integrated assets produced by other team members.</li>
+                  <li>Integrated SDKs for analytics and monetization.</li>
                   <li>Created shaders with Shader Graph.</li>
                 </ul>
                 "
