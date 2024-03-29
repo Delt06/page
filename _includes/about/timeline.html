@@ -8,8 +8,6 @@
           {% assign from_date = item.from %}
           {% assign to_date = item.to %}
 
-          
-
           <h6 class="date">
             {{ from_date | date: '%B %Y' }} — {{ to_date | date: '%B %Y' | default: 'Present' }} 
 
@@ -30,6 +28,10 @@
               {{ job_diff_mos}} mos
             {% endif %}
           </h6>
+
+          {% if item.picture %}
+              <img src="{{ item.picture }}"/> 
+          {% endif %}
 
           <p>{{ item.description }}</p>
         </div>

@@ -2,6 +2,7 @@
   from: September 2022
   to:
   show_duration: true
+  picture: /assets/timeline/sperasoft_starfield.jpg
   description:  "
                 <ul>
                   <li>
@@ -18,6 +19,7 @@
   from: January 2021
   to: July 2022
   show_duration: true
+  picture: /assets/timeline/igd_2.jpg
   description:  "
                 <ul>
                   <li>Developed and maintained mobile and WebGL games.</li>
@@ -35,6 +37,7 @@
   from: November 2019
   to: December 2020
   show_duration: true
+  picture: /assets/timeline/igd_1.jpg
   description: "
                 <ul>
                   <li>Developed and maintained mobile games.</li>
