@@ -5,5 +5,5 @@ image: https://github.com/Delt06/unity-graphics/raw/master/Documentation/billboa
 description: A collection of URP shaders and render features.
 external_url: https://github.com/Delt06/unity-graphics
 gh_repo: Delt06/unity-graphics
-weight: 5
+weight: 15
 ---
