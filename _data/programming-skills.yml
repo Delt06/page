@@ -3,7 +3,7 @@
   subskills:
   - name: Unity/C#/URP/SRP
     percentage: 100  
-    icon_url: https://unity.com/themes/contrib/unity_base/images/favicons/favicon.ico
+    icon_url: https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/unity.png
   - name: DirectX 12/C++
     percentage: 100
     icon_url: https://cdn.lo4d.com/t/icon/128/directx-10.png
@@ -15,7 +15,7 @@
   subskills:
   - name: Unity/HLSL/ShaderLab/ShaderGraph
     percentage: 100
-    icon_url: https://unity.com/themes/contrib/unity_base/images/favicons/favicon.ico
+    icon_url: https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/unity.png
   - name: DirectX 12/HLSL
     percentage: 100
     icon_url: https://cdn.lo4d.com/t/icon/128/directx-10.png
@@ -25,7 +25,7 @@
   subskills:
   - name: Unity/C#
     percentage: 100
-    icon_url: https://unity.com/themes/contrib/unity_base/images/favicons/favicon.ico
+    icon_url: https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/unity.png
 
 - name: Game Architecture
   color: secondary

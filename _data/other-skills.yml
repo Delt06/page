@@ -3,7 +3,7 @@
   subskills:
   - name: Git
     percentage: 100
-    icon_url: https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png
+    icon_url: https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png
   - name: Perforce
     percentage: 100
     icon_url: https://www.perforce.com/sites/default/themes/custom/perforce/images/favicons/favicon.ico
@@ -13,10 +13,10 @@
   subskills:
   - name: GitHub Actions
     percentage: 100
-    icon_url: https://github.githubassets.com/favicons/favicon-dark.png
+    icon_url: https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/github.png
   - name: GameCI
     percentage: 100
     icon_url: https://game.ci/icons/favicon.ico
   - name: GitLab CI
     percentage: 100
-    icon_url: https://user-images.githubusercontent.com/25181517/192108376-c675d39b-90f6-4073-bde6-5a9291644657.png
+    icon_url: https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/gitlab.png
