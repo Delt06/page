@@ -1,4 +1,4 @@
-<div class="wow animated fadeIn" data-wow-delay=".15s" style="width: 20rem;">
+<div class="wow animated fadeIn" data-wow-delay=".15s" style="width: {{ project_card_width }};">
   <a href="{{ project_url }}" class="project card text-themed">
     {%- if project_img -%}
     <img
@@ -19,6 +19,15 @@
           title="GitHub Repository"
         ></i>
         |&nbsp; {%- endif -%} {{ project_name }} <!-- Place this tag where you want the button to render. -->
+        
+        {%- if project_studio -%}
+          <h6 class="card-title" style="text-align: center;">
+            {{ project_studio }} 
+            {%- if project_outsource -%}   
+            &nbsp;+&nbsp;{{ project_outsource }}
+            {%- endif -%}
+          </h6>
+        {%- endif -%}
 
         {%- if project_gh_repo -%}
         <div >

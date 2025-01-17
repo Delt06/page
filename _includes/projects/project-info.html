@@ -12,6 +12,15 @@
     {%- assign project_url = project.google_play_url | project.url | relative_url -%}
 {%- endif -%}
 
+{%- if project.card_width -%}
+    {%- assign project_card_width = project.card_width -%}
+{%- else -%}
+    {%- assign project_card_width = "20rem" -%}
+{%- endif -%}
+
+{%- assign project_studio = project.studio -%}
+{%- assign project_outsource = project.outsource -%}
+
 {%- assign project_google_play_url = project.google_play_url -%}
 {%- assign project_itch_url = project.itch_url -%}
 
