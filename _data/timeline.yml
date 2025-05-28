@@ -2,6 +2,12 @@
   from: April 2024
   to:
   show_duration: true
+  description: "
+                <ul>
+                  <li>Development and maintenance of a custom in-house Unity SRP (Scriptable Render Pipeline).</li>
+                  <li>Rendering performance profiling and optimization across various platforms and graphics APIs.</li>
+                </ul>
+                "
 - title: Graphics Programmer, Sperasoft
   from: September 2022
   to: April 2024
