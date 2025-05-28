@@ -6,7 +6,7 @@
     icon_url: https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png
   - name: Perforce
     percentage: 100
-    icon_url: https://www.perforce.com/sites/default/themes/custom/perforce/images/favicons/favicon.ico
+    icon_url: assets/skills/perforce.jpeg
 
 - name: CI/CD
   color: secondary
