@@ -19,7 +19,7 @@ Everything runs in Unity 6 + URP + DX11, with no strict hardware requirements (n
 The video showcases how enabling the plugin dramatically boosts performance in a 72 million triangle scene.
 
 <html>
-    <video controls width="750"><source src="/assets/blog/2025-03-14-virtual-mesh-00.md.mp4" type="video/mp4" /></video>
+    <video controls width="85%"><source src="/assets/blog/2025-03-14-virtual-mesh-00.md.mp4" type="video/mp4" /></video>
 </html>
 
 ## Relevant

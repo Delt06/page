@@ -18,7 +18,7 @@ Virtual Mesh currently supports the following methods of per-primitive culling:
 Performance-wise, this results in a whopping 67% speed-up for shadows and 15% for the main view. While my solution benefits from triangle culling on this particular hardware, the outcome is dependent on mesh shader usage, GPU vendor/architecture, and many other factors.
 
 <html>
-    <video controls width="750"><source src="/assets/blog/2025-04-03-virtual-mesh-02.md.mp4" type="video/mp4" /></video>
+    <video controls width="85%"><source src="/assets/blog/2025-04-03-virtual-mesh-02.md.mp4" type="video/mp4" /></video>
 </html>
 
 ## Other Posts

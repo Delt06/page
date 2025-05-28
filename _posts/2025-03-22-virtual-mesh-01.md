@@ -17,7 +17,7 @@ The described algorithm is executed fully on GPU and is 100% conservative, which
 The video demonstrates how enabling occlusion culling cuts triangle count of the main view by 25% and improves its rendering time by about 20%. There's a small performance overhead for culling and HDB generation, but it is worth it for most games.
 
 <html>
-    <video controls width="750"><source src="/assets/blog/2025-03-22-virtual-mesh-01.md.mp4" type="video/mp4" /></video>
+    <video controls width="85%"><source src="/assets/blog/2025-03-22-virtual-mesh-01.md.mp4" type="video/mp4" /></video>
 </html>
 
 ## Relevant
